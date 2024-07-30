@@ -15,6 +15,13 @@ export default function Login() {
         >
           Login with Google
         </button>
+
+        <button
+          type="submit"
+          className="bg-gray-500 hover:bg-gray-700 text-white font-bold py-2 px-4 rounded"
+        >
+          Login with Github
+        </button>
       </div>
     </form>
   );
